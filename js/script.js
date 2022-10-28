@@ -34,7 +34,7 @@ eleGroceryForm.addEventListener('submit',
 
 );
 
-let i = 1;
+let i = 0;
 while (i <= arrGroceryList.length) {
     eleGroceryList.innerHTML += `<li>${arrGroceryList[i]}</li>`;
     i++;
